@@ -1,0 +1,21 @@
+<!-- <form class="row"> -->
+  <form class="item">
+    <!-- <div class="form-group col-md-2">
+      <label for="nombre" class="d-none">Nombre</label> -->
+      <input type="text" name="nombre" placeholder="Nombre" [(ngModel)] = 'nombreInput'>
+      <!--<input type="text" name="nombre" placeholder="Nombre" class="form-control" #nombreRef>-->
+    <!-- </div> -->
+    <!-- <div class="form-group col-md-2">
+      <label for="apellido" class="visually-hidden">Apellido</label> -->
+      <input type="text" name="apellido" placeholder="Apellido" [(ngModel)] = 'apellidoInput'>
+      <!--<input type="text" name="apellido" placeholder="Apellido" class="form-control" #apellidoRef>-->
+    <!-- </div> -->
+    <!-- <div class="col"> -->
+        <!--Two Bind Binding-->
+      <button type="submit" (click)="agregarPersona()">+</button>
+        <!--Referencias Locales-->
+      <!--<button type="submit" class="btn-primary" (click)="agregarPersona(nombreRef, apellidoRef)">Agregar</button>-->
+        <!--ViewChild-->
+      <!--<button type="submit" class="btn-primary" (click)="agregarPersona()">Agregar</button>-->
+    <!-- </div> -->
+  </form>
